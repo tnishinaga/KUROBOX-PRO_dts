@@ -1,0 +1,14 @@
+diff --git arch/arm/boot/dts/Makefile arch/arm/boot/dts/Makefile
+index bb8fa02..3dbb540 100644
+--- arch/arm/boot/dts/Makefile
++++ arch/arm/boot/dts/Makefile
+@@ -482,7 +482,8 @@ dtb-$(CONFIG_ARCH_ORION5X) += \
+ 	orion5x-linkstation-lswtgl.dtb \
+ 	orion5x-lswsgl.dtb \
+ 	orion5x-maxtor-shared-storage-2.dtb \
+-	orion5x-rd88f5182-nas.dtb
++	orion5x-rd88f5182-nas.dtb \
++	orion5x-kurobox-pro.dtb
+ dtb-$(CONFIG_ARCH_PRIMA2) += \
+ 	prima2-evb.dtb
+ dtb-$(CONFIG_ARCH_QCOM) += \
